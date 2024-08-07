@@ -1,0 +1,42 @@
+1. p {font-family: Arial;}'
+   ^             ^
+  selector    declaration
+
+This rule indicates that all <p> elements should be shown in the
+Arial typeface.
+
+2. h1, h2, h3 {font-family: Arial;
+               color:       yellow;}
+                  ^           ^
+              property       value
+
+This rule indicates that all <h1>, <h2> and <h3> elements should be 
+shown in the Arial typeface, in a yellow color.
+
+3. CSS Cascade
+    - Last rule: If the two selectors are identical, the latter of the two will take
+    precedence;
+
+    - Specificity: If one selector is more specific than the others, the more 
+    specific rule will take precedence over more general ones;
+
+    - Important: You can add !important after any property value to indicate
+    that it should be considered more important than other rules.
+
+4. Why external styles?
+    - All of your web pages can share the same style sheet. This is achieved 
+    by using the <link> element on each HTML page of your site to link to the 
+    same CSS document.
+    - Sometimes you might consider placing CSS rules in the same page as
+    your HTML code.
+
+5. Test your website in different browsers:
+    - BrowserCam.com
+    - BrowserLab.Adobe.com
+    - BrowserShots.org
+    - CrossBrowserTesting.com
+
+When a CSS property does not display as expected, it is generally referred to as a
+browser quirk or CSS bug.
+- PositionIsEverything.net
+- QuirksMode.org

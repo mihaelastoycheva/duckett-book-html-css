@@ -1,0 +1,7 @@
+1. Relative URLs (look at directory-structure.png)
+
+    - Same folder: <a href="reviews.html">Reviews</a>
+    - Child folder: <a href="music/listings.html">Listings</a>
+    - Grandchild folder: <a href="movies/dvd/reviews.html">Reviews</a>
+    - Parent folder: <a href="../index.html">Home</a>
+    - Grandparent folder: <a href="../../index.html">Home</a>

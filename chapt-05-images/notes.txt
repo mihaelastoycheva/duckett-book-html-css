@@ -1,0 +1,10 @@
+1. Tools to edit (see page 108 in book)
+
+JPGs, GIFs, and PNGs belong to a type of image format known as bitmap. 
+(pixels per inch -> ppi)
+
+Images in print materials (such as books and magazines) are made up of tiny circles 
+called dots. (dots per inch -> dpi)
+
+*Images created for the web should be saved at a resolution of 72 ppi.
+ Images created for print should be made up at a resolution of 300 dpi.

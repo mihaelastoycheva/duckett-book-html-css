@@ -1,0 +1,25 @@
+1. The evolution of HTML (see page 179)
+
+2. DOCTYPE
+- each web page should begin with a DOCTYPE declaration to tell a browser 
+which version of HTML the page is using
+
+HTML5: <!DOCTYPE html>
+
+3. The <meta> element
+- lives inside the <head> element and contains information about that web page;
+- fulfills a number of purposes such as telling search engines about your page, 
+who created it, and whether or not it is timesensitive;
+- an empty element so it does not have a closing tag
+
+The most common attributes are the name and content attributes:
+- specify properties of the entire page;
+- The value of the name attribute is the property you are setting;
+- the value of the content attribute is the value that you want to give to this
+  property
+- name & content attributes tend to be used together
+
+4. The <div> and <span> elements allow you to group block-level and 
+inline elements together
+
+5. Escape characters (see page 194), e.g. >, &, ", € ...

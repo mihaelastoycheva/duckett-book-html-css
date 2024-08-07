@@ -1,0 +1,78 @@
+body{
+    color: white;
+    background-color: silver;
+    font-family: Arial, Verdana, sans-serif;
+    padding: 20px;
+}
+
+h1{
+    background-color: white;
+    padding: inherit;
+    color: #707070;
+}
+
+p{
+    padding: 5px;
+    margin: auto;
+}
+
+p.fourteen{
+    background-color: hsla(205, 63%, 50%, 1);
+    
+}
+
+p.thirteen{
+    background-color: hsla(205, 63%, 55%, 1);
+}
+
+p.twelve{
+    background-color: hsla(205, 63%, 60%, 1);
+}
+
+p.eleven{
+    background-color: hsla(205, 63%, 65%, 1);
+}
+
+p.ten{
+    background-color: hsla(205, 63%, 70%, 1);
+}
+
+p.nine{
+    background-color: hsla(205, 63%, 75%, 1);
+}
+
+p.eight{
+    background-color: hsla(205, 63%, 80%, 1);
+}
+
+p.seven{
+    background-color: #1db684;
+}
+
+p.six{
+    background-color: hsla(337, 84%, 80%, 1);
+}
+
+p.five{
+    background-color: hsla(337, 84%, 75%, 1);
+}
+
+p.four{
+    background-color: hsla(337, 84%, 70%, 1);
+}
+
+p.three{
+    background-color: hsla(337, 84%, 65%, 1);
+}
+
+p.two{
+    background-color: hsla(337, 84%, 60%, 1);
+}
+
+p.one{
+    background-color: hsla(337, 84%, 55%, 1);
+}
+
+p.zero{
+    background-color: hsla(337, 84%, 50%, 1);
+}

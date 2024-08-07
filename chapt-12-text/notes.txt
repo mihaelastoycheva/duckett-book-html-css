@@ -1,0 +1,18 @@
+1. Open-source fonts:
+www.fontsquirrel.com
+www.fontex.org
+www.openfontlibrary.org
+www.google.com/webfonts (link to a CSS file and font files)
+
+2. Source of commercial fonts (negotiate a permission)
+www.typekit.com
+www.kernest.com
+www.fontspring.com
+
+2. Font formats (see img font-formats.png)
+- eot
+- woff
+- ttf/otf 
+- svg
+
+Convert the format: www.fontsquirrel.com/fontface/generator

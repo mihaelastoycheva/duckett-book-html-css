@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="http://www.example.com/review.php" method="get">
+            <fieldset>
+                <legend>Your Details:</legend>
+            
+                <label for="name">Name: </label>
+                <input type="text" name="name" /><br />
+            
+                <label for="name">Email: </label>
+                <input type="email" name="email" />
+            </fieldset>
+            
+            <br />
+            
+            <fieldset>
+                <legend>Your Review:</legend><br />
+            
+                <label for="hear-about">How did you hear about us?</label>
+                <select name="referrer" id="hear-about">
+                    <option value="google">Google</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="twitter">Twitter</option>
+                </select>
+            
+                <br /><br />
+            
+                <label>Would you visit again?</label><br />
+                <input type="radio" name="rating" value="yes"/>Yes
+                <input type="radio" name="rating" value="no" />No
+                <input type="radio" name="rating" value="maybe"/>Maybe
+            
+                <br /><br />
+            
+                <label for="comments">Comments:</label><br />
+                <textarea id="comments" cols="40" rows="4"></textarea><br /><br />
+            
+                <input type="checkbox" name="subscribe" checked="checked"/>
+                Sign me up for email updates
+                <br />
+            
+                <input type="submit" value="Submit review"/>
+                
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+1. Foreground color
+
+/* color name */
+h1 {
+color: DarkCyan;}
+- 147 predefined color names that are recognized by browsers
+
+/* hex code */
+h2 {
+color: #ee3e80;}
+
+/* rgb value */
+p {
+color: rgb(100,100,90);}
+
+Comments in CSS: /* ... */
+
+2. Background color
+- the same three ways: RGB values, hex codes, and color names
+- If you do not specify a background color, then the background is transparent.
+
+Color picking tool: colorschemedesigner.com
+
+3. Opacity
+- the value is a number between 0.0 and 1.0 (so a value of 0.5 is 50% opacity 
+and 0.15 is 15%opacity)
+
+4. CSS3: HSL(A) colors
+- Hue: represented as a color circle where the angle represents the color 
+(slider with values from 0 to 360)
+- Saturation: the amount of gray in a color (in %)
+- Lightness: the amount of white (lightness) or black (darkness) in a color (in %)
+- Alpha: number between 0 and 1.0 (0.5 represents 50% transparency, and 0.75
+represents 75% transparency)
+
+
+* p {padding: inherit;}
+Takes the characteristics from the parent element (e.g. from body)

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Font Family</title>
+    <style type="text/css">
+        body {
+            font-family: Georgia, Times, serif;
+            font-size: 12px;
+        }
+        @font-face {
+            font-family: 'ChunkFiveRegular';
+            src: url('fonts/chunkfive.eot');
+        }
+        h1 {
+            font-family: ChunkFiveRegular, Georgia, serif;
+            font-size: 200%;
+            text-transform: uppercase;
+            text-decoration: blink;
+            letter-spacing: 0.2em;
+            text-align: left;
+        }
+        h2{
+            text-transform: capitalize;
+            text-decoration: underline;
+            text-align: center;
+        }
+        p{
+            line-height: 1.4em;
+            text-align: justify;
+        }
+        .credits {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.3em;
+            font-weight: bold;
+            font-style: italic;
+            text-transform: lowercase;
+            text-decoration: overline;
+            word-spacing: 1em;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Briards</h1>
+    <h2>Text with capitalize</h2>
+    <p class="credits">by Ivy Duckett</p>
+    <p class="intro">The <a class="breed" href="http://en.wikipedia.org/wiki/Briard">
+        briard</a> or berger de brie, is a large breed of dog traditionally used as
+        a herder and guardian of sheep. Justified text looks at the words on each 
+        individual line and creates an equal gap between those words. It can look odd
+        if you end up with large gaps between some words and smaller gaps between 
+        others. This often happens when your lines are not very wide or when your 
+        text contains long words.</p>
+</body>
+</html>
+
+<!-- 
+    The font-family property allows you to specify the typeface that 
+    should be used for any text inside the element(s) 
+
+    The font-size property:
+    - pixels;
+    - percentages: The default size of text in browsers is 16px. So a size of 75% 
+    would be the equivalent of 12px, and 200% would be 32px;
+    - ems: equivalent to the width of a letter m.
+    - pt for point sizes instead of px for pixels, but you should only do this when
+    creating style sheets for printerfriendly versions of pages.
+
+    @font-face allows you to use a font, even if it is not installed on the computer 
+    of the person browsing.
+    - font-family: specifies the name of the font
+    - src: specifies the path to the font
+
+    The font-weight property allows you to create bold text.
+    - normal
+    - bold
+
+    The font-style property allows you to create italic text:
+    - normal
+    - italic
+    - oblique
+
+    The text-transform property is used to change the case of text
+    - uppercase
+    - lowercase
+    - capitalize: the first letter of each word to appear capitalized
+
+    The text-decoration property:
+    - none
+    - underline
+    - overline
+    - line-through
+    - blink
+
+    The line height property sets the height of an entire line of text
+    (see img line-height.png)
+    - leading: the vertical space between lines of text
+        *The part of a letter that drops beneath the baseline is called a descender.
+        *The highest point of a letter is called the ascender.
+    Increasing the line-height makes the vertical gap between lines of text larger.
+
+    The letter-spacing property controls the space between each letter.
+    - kerning: the space between each letter
+
+    The word-spacing property controls the gap between words.
+        * The default gap between words is set by the typeface (often around 0.25em)
+
+    The text-align property:
+    - left, right, center
+    - justify: every line, except the last line, take up the full width of the 
+    containing box
+-->
