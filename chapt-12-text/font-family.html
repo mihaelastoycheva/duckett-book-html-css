@@ -39,6 +39,51 @@
             word-spacing: 1em;
             text-align: right;
         }
+        p.one{
+            background-color: #eeeeee;
+            color: #666666;
+            text-shadow: 1px 1px 0px #000000;
+        }
+        p.two{
+            background-color: #dddddd;
+            color: #666666;
+            text-shadow: 1px 1px 3px #666666;
+        }
+        p.three{
+            background-color: #cccccc;
+            color: #ffffff;
+            text-shadow: 2px 2px 7px #111111;
+        }
+        p.four{
+            background-color: #bbbbbb;
+            color: #cccccc;
+            text-shadow: -1px -2px #666666;
+        }
+        p.five{
+            background-color: #aaaaaa;
+            color: #ffffff;
+            text-shadow: -1px -1px #666666;
+        }
+        p.intro:first-letter{
+            font-size: 200%;
+        }
+        p.intro:first-line{
+            font-weight: bold;
+        }
+        a:link{
+            color:deeppink;
+            text-decoration: none;
+        }
+        a:visited{
+            color:black;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: darkcyan;
+        }
+        
     </style>
 </head>
 
@@ -53,6 +98,30 @@
         if you end up with large gaps between some words and smaller gaps between 
         others. This often happens when your lines are not very wide or when your 
         text contains long words.</p>
+    <p class="one">The briad is known as a heart wrapped in fur</p>
+    <p class="two">The briad is known as a heart wrapped in fur</p>
+    <p class="three">The briad is known as a heart wrapped in fur</p>
+    <p class="four">The briad is known as a heart wrapped in fur</p>
+    <p class="five">The briad is known as a heart wrapped in fur</p>
+    <ul>
+        <li><a href="http://en.wikipedia.org/wiki/Basset_Hound">Basset Hound</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Beagle">Beagle</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Bearded_Collie">Bearded Collie</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Beauceron">Beauceron</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Bedlington_Terrier">Bedlington Terrier</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Belgian_Shepherd_Dog_(Groenendael)">Belgian Shepherd</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Bergamasco_Shepherd">Bergamasco</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Bichon_Fris�">Bichon Frise</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Bloodhound">Bloodhound</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Bolognese_(dog)">Bolognese</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Border_Collie">Border Collie</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Border_Terrier">Border Terrier</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Borzoi">Borzoi</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Bouvier_des_Flandres">Bouvier des Flandres</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Briard">Briard</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Bull_Terrier">Bull Terrier</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Bulldog">Bulldog</a></li>
+    </ul>
 </body>
 </html>
 
@@ -111,4 +180,22 @@
     - left, right, center
     - justify: every line, except the last line, take up the full width of the 
     containing box
+
+    The vertical-align property: commonly used with inline elements such as <img>,
+    <em>, or <strong> elements
+    - baseline              - middle
+    - sub                   - bottom
+    - super                 - text-bottom
+    - top                   - text-top
+    
+    The text-indent property allows you to indent the first line of text within 
+    an element. It can take a negative value, which means it can be used to push 
+    text off the browser window.
+
+    The text-shadow property take 3 lengths and a color of the dropshadow:
+    - first length indicates how far to the left or right the shadow should fall;
+    - second value indicates the distance to the top or bottom
+    - third value (optional) specifies the amount of blur that should be applied to 
+    the drop shadow
+
 -->
