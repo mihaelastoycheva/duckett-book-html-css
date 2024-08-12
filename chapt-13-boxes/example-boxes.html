@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Boxes</title>
+    <style type="text/css">
+        body {
+            font-family: "Courier New", Courier, monospace;
+            background-color: #efefef;
+        }
+
+        div.center-container {
+            background-color: white;
+            max-width: 940px;
+            min-width: 720px;
+            padding: 20px;
+            border: 4px double #000;
+            margin: 10px auto 10px auto;
+        }
+
+        li {
+            display: inline;
+            text-transform: uppercase;
+            padding: 0px 20px 0px 20px;
+        }
+
+        #logo {
+            margin: 10px auto 25px auto;
+            width: 150px;
+        }
+
+        #navigation {
+            padding-inline-start: 0px;
+            border-top: 2px solid #000000;
+            border-bottom: 1px solid #000000;
+            margin: 10px auto 20px auto;
+            width: 600px;
+            font-size: 80%;
+            letter-spacing: 2px;
+            padding: 5px;
+        }
+
+        #photo {
+            margin: 5px auto 10px auto;
+            width: 600px;
+        }
+
+        #information {
+            text-align: center;
+            width: 600px;
+            margin: 10px auto 20px auto;
+            letter-spacing: 2px;
+            font-size: 80%;
+        }
+        a:link{
+            text-decoration: none;
+            color: black;
+        }
+        a.first{
+            color: rgb(184, 108, 120);
+        }
+        a:hover{
+            color: rgb(184, 108, 120);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center-container">
+
+        <div id="logo">
+            <img src="images/logo.gif" alt="The analog specialists logo" />
+        </div>
+
+        <div id="navigation">
+            <ul>
+                <li><a class="first" href="index.html">Home</a></li>
+                <li><a href="index.html">For sale</a></li>
+                <li><a href="index.html">Repairs</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="photo">
+            <img src="images/keys.jpg" alt="Three images of piano" />
+        </div>
+
+        <div id="information">
+            <p>We specialize in the sale and repair of classic keyboards, in
+                particular the Fender Rhodes, Wurlitzer EP200, and Hohner Clavinet.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
