@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        td{
+            border: 1px solid #0088dd;
+            padding: 15px;
+        }
+        table.one{
+            empty-cells: show;
+        }
+        table.two{
+            empty-cells: hide;
+        }
+    </style>
+</head>
+<body>
+<table class="one">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td></td>
+    </tr>
+</table>
+<table class="two">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>
+
+<!--
+    The empty-cells property specify whether their borders should be shown:
+    - show: shows the borders of any empty cells
+    - hide: hides the borders of any empty cells
+    - inherit: If you have one table nested inside another, the inherit value instructs the table cells to
+    obey the rules of the containing table.
+-->
