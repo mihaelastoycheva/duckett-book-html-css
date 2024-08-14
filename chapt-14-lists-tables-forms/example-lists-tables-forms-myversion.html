@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Verdana, sans-serif;
+            color: rgb(105, 105, 105);
+            background-color: #f8f8f8;
+        }
+
+        div {
+            font-size: 90%;
+        }
+
+        ul {
+            list-style-image: url("images/icon-plus.png");
+        }
+
+        li {
+            margin: 10px 0px 0px 0px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-bottom: 1px solid gray;
+            border-right: 1px solid gray;
+            background-color: #e0e9f0;
+            text-shadow: 0px 1px 1px #ffffff;
+            margin: 20px 0px 20px 3px;
+            width: 700px;
+        }
+
+        th,
+        td {
+            border: 1px solid #d9e1e8;
+            padding: 7px 7px 7px 10px;
+        }
+
+        table th {
+            border: 1px solid #83a8cb;
+            color: white;
+            padding: 7px 40px 7px 15px;
+            text-shadow: 0px -1px 1px #474747;
+            letter-spacing: 0.1em;
+        }
+
+        table td {
+            letter-spacing: -0.02em;
+        }
+
+        .table-head {
+            background-color: #90b4d6;
+            border-bottom: 2px solid #547ca0;
+        }
+
+        .even {
+            background-color: #e8eff5;
+        }
+
+        fieldset {
+            width: 300px;
+            padding: 25px 15px 10px 10px;
+            background-color: white;
+            border: 1px solid #d9e1e8;
+        }
+
+        legend{
+            font-style: italic;
+        }
+
+        input {
+            width: 130px;
+            margin: 2px 0px 2px 0px;
+            border: 1px solid #d3d5d6;
+        }
+
+        .text-info {
+            padding-right: 70px;
+        }
+
+        input[type="radio"], select{
+            width: auto;
+            margin-top: 17px;
+        }
+
+        .options-info{
+            padding-right: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Poetry Workshops</h1>
+
+    <div class="intro">
+        <p>We will be conducting a number of poetry workshops and symposiums
+            throughout the year.</p>
+        <p>Please note that the following events are free to members:</p>
+        <ul>
+            <li>A Poetic Perspective</li>
+            <li>Walt Whitman at War</li>
+            <li>Found Poems and Outsider Poetry</li>
+        </ul>
+    </div>
+
+    <div class="table">
+        <table>
+            <tr class="table-head">
+                <th></th>
+                <th>New York</th>
+                <th>Chicago</th>
+                <th>San Francisco</th>
+            </tr>
+
+            <tr>
+                <td style="font-weight: bold;">A Poetic Perspective</td>
+                <td>Sat, 4 Feb 2012<br />
+                    11am - 2pm</td>
+                <td>Sat, 3 Mar 2012<br />
+                    11am - 2pm</td>
+                <td>Sat, 17 Mar 2012<br />
+                    11am - 2pm</td>
+            </tr>
+
+            <tr class="even">
+                <td style="font-weight: bold;">Walt Whitman at War</td>
+                <td>Sat, 7 Apr 2012<br />
+                    11am - 1pm</td>
+                <td>Sat, 5 May 2012<br />
+                    11am - 1pm</td>
+                <td>Sat, 19 May 2012<br />
+                    11am - 1pm</td>
+            </tr>
+
+            <tr>
+                <td style="font-weight: bold;">Found Poems & Outsider Poetry</td>
+                <td>Sat, 9 Jun 2012<br />
+                    11am - 2pm</td>
+                <td>Sat, 7 Jul 2012<br />
+                    11am - 2pm</td>
+                <td>Sat, 21 Jul 2012<br />
+                    11am - 2pm</td>
+            </tr>
+
+            <tr class="even">
+                <td style="font-weight: bold;">Natural Death: An Exploration</td>
+                <td>Sat, 4 Aug 2012<br />
+                    11am - 4pm</td>
+                <td>Sat, 8 Sep 2012<br />
+                    11am - 4pm</td>
+                <td>Sat, 15 Sep 2012<br />
+                    11am - 4pm</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <fieldset>
+            <legend>Register your interest</legend>
+
+            <label class="text-info" for="name">Your name:</label>
+            <input id="name" type="text" /><br />
+
+            <label class="text-info" for="email">Your email:</label>
+            <input id="email" type="text" />
+
+            <label class="options-info" for="center">Your closest center:</label>
+            <select name="center">
+                <option value="new-york">New York</option>
+                <option value="chicago">Chicago</option>
+                <option value="san-francisco">San Francisco</option>
+            </select><br/>
+
+            <label class="options-info" for="member">Are you a member?</label>
+            <input type="radio" name="member" value="yes" /> Yes
+            <input type="radio" name="member" value="no"/> No
+        </fieldset>
+    </div>
+</body>
+
+</html>
