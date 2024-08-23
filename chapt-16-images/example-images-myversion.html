@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Images</title>
+    <style type="text/css">
+        body {
+            background-image: url("images/backdrop.gif");
+            max-width: 720px;
+            display: grid;
+            justify-items: center;
+            margin: 40px auto 0px auto;
+        }
+
+        header {
+            display: grid;
+            grid-template-rows: 2fr 1fr;
+            align-items: center;
+        }
+
+        header p {
+            justify-self: center;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        main figure {
+            background-color: #e7e3d8;
+            padding: 10px 10px 5px 10px;
+            margin: 0px;
+        }
+
+        main figure img.photo {
+            border: 1px solid #bebebe;
+        }
+
+        main figure figcaption img {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="grid">
+        <img src="images/title.gif" alt="Galerie Botanique">
+        <p>Here is a selection of antique botanical prints held in our collection.</p>
+    </header>
+
+    <main class="grid">
+        <figure>
+            <img src="images/print-01.jpg" alt="Helianthus" class="photo">
+            <figcaption><img src="images/icon.png" alt="icon">Helianthus</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/print-02.jpg" alt="Passiflora" class="photo">
+            <figcaption><img src="images/icon.png" alt="icon">Passiflora</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/print-03.jpg" alt="Nyctocalos" class="photo">
+            <figcaption><img src="images/icon.png" alt="icon">Nyctocalos</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/print-04.jpg" alt="Polianthes" class="photo">
+            <figcaption><img src="images/icon.png" alt="icon">Polianthes</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/print-05.jpg" alt="Ficus" class="photo">
+            <figcaption><img src="images/icon.png" alt="icon">Ficus</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/print-06.jpg" alt="Dendrobium" class="photo">
+            <figcaption><img src="images/icon.png" alt="icon">Dendrobium</figcaption>
+        </figure>
+    </main>
+
+</body>
+
+</html>
